@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ColoredViewController.h
 //  CustomTabBar
 //
 //  Created by Sergey Demchenko on 11/9/13.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface NamedViewController : UIViewController
 
-@property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) NSString *name;
 
 @end

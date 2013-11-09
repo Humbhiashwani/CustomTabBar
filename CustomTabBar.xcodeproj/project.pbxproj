@@ -19,6 +19,13 @@
 		CB0E28FA1824E54B00EBE055 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB0E28E21824E54B00EBE055 /* UIKit.framework */; };
 		CB0E29021824E54B00EBE055 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB0E29001824E54B00EBE055 /* InfoPlist.strings */; };
 		CB0E29041824E54B00EBE055 /* CustomTabBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0E29031824E54B00EBE055 /* CustomTabBarTests.m */; };
+		CB14CDA2182E2CD100CD6E48 /* NamedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB14CDA0182E2CD100CD6E48 /* NamedViewController.m */; };
+		CB14CDA3182E2CD100CD6E48 /* NamedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB14CDA1182E2CD100CD6E48 /* NamedViewController.xib */; };
+		CB14CDB0182E2CDA00CD6E48 /* CustomTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CB14CDAA182E2CDA00CD6E48 /* CustomTabBarItem.m */; };
+		CB14CDB1182E2CDA00CD6E48 /* CustomTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB14CDAC182E2CDA00CD6E48 /* CustomTabBarViewController.m */; };
+		CB14CDB2182E2CDA00CD6E48 /* CustomTabBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB14CDAD182E2CDA00CD6E48 /* CustomTabBarViewController.xib */; };
+		CB14CDB6182E313D00CD6E48 /* CustomTabBarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB14CDB3182E313D00CD6E48 /* CustomTabBarCell.m */; };
+		CB14CDB7182E313D00CD6E48 /* CustomTabBarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB14CDB4182E313D00CD6E48 /* CustomTabBarCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,17 @@
 		CB0E28FF1824E54B00EBE055 /* CustomTabBarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomTabBarTests-Info.plist"; sourceTree = "<group>"; };
 		CB0E29011824E54B00EBE055 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CB0E29031824E54B00EBE055 /* CustomTabBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarTests.m; sourceTree = "<group>"; };
+		CB14CD9F182E2CD100CD6E48 /* NamedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NamedViewController.h; sourceTree = "<group>"; };
+		CB14CDA0182E2CD100CD6E48 /* NamedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NamedViewController.m; sourceTree = "<group>"; };
+		CB14CDA1182E2CD100CD6E48 /* NamedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NamedViewController.xib; sourceTree = "<group>"; };
+		CB14CDA9182E2CDA00CD6E48 /* CustomTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarItem.h; sourceTree = "<group>"; };
+		CB14CDAA182E2CDA00CD6E48 /* CustomTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarItem.m; sourceTree = "<group>"; };
+		CB14CDAB182E2CDA00CD6E48 /* CustomTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarViewController.h; sourceTree = "<group>"; };
+		CB14CDAC182E2CDA00CD6E48 /* CustomTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarViewController.m; sourceTree = "<group>"; };
+		CB14CDAD182E2CDA00CD6E48 /* CustomTabBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTabBarViewController.xib; sourceTree = "<group>"; };
+		CB14CDB3182E313D00CD6E48 /* CustomTabBarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarCell.m; sourceTree = "<group>"; };
+		CB14CDB4182E313D00CD6E48 /* CustomTabBarCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTabBarCell.xib; sourceTree = "<group>"; };
+		CB14CDB5182E313D00CD6E48 /* CustomTabBarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarCell.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +127,9 @@
 			children = (
 				CB0E28ED1824E54B00EBE055 /* AppDelegate.h */,
 				CB0E28EE1824E54B00EBE055 /* AppDelegate.m */,
+				CB14CDA4182E2CDA00CD6E48 /* CustomTabBarCell */,
+				CB14CDA8182E2CDA00CD6E48 /* CustomTabBarViewController */,
+				CB14CD9E182E2CD100CD6E48 /* NamedViewController */,
 				CB0E28F01824E54B00EBE055 /* Images.xcassets */,
 				CB0E28E51824E54B00EBE055 /* Supporting Files */,
 			);
@@ -142,6 +163,38 @@
 				CB0E29001824E54B00EBE055 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB14CD9E182E2CD100CD6E48 /* NamedViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CB14CD9F182E2CD100CD6E48 /* NamedViewController.h */,
+				CB14CDA0182E2CD100CD6E48 /* NamedViewController.m */,
+				CB14CDA1182E2CD100CD6E48 /* NamedViewController.xib */,
+			);
+			path = NamedViewController;
+			sourceTree = "<group>";
+		};
+		CB14CDA4182E2CDA00CD6E48 /* CustomTabBarCell */ = {
+			isa = PBXGroup;
+			children = (
+				CB14CDB5182E313D00CD6E48 /* CustomTabBarCell.h */,
+				CB14CDB3182E313D00CD6E48 /* CustomTabBarCell.m */,
+				CB14CDB4182E313D00CD6E48 /* CustomTabBarCell.xib */,
+			);
+			path = CustomTabBarCell;
+			sourceTree = "<group>";
+		};
+		CB14CDA8182E2CDA00CD6E48 /* CustomTabBarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CB14CDA9182E2CDA00CD6E48 /* CustomTabBarItem.h */,
+				CB14CDAA182E2CDA00CD6E48 /* CustomTabBarItem.m */,
+				CB14CDAB182E2CDA00CD6E48 /* CustomTabBarViewController.h */,
+				CB14CDAC182E2CDA00CD6E48 /* CustomTabBarViewController.m */,
+				CB14CDAD182E2CDA00CD6E48 /* CustomTabBarViewController.xib */,
+			);
+			path = CustomTabBarViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +274,9 @@
 			files = (
 				CB0E28E91824E54B00EBE055 /* InfoPlist.strings in Resources */,
 				CB0E28F11824E54B00EBE055 /* Images.xcassets in Resources */,
+				CB14CDB7182E313D00CD6E48 /* CustomTabBarCell.xib in Resources */,
+				CB14CDB2182E2CDA00CD6E48 /* CustomTabBarViewController.xib in Resources */,
+				CB14CDA3182E2CD100CD6E48 /* NamedViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +296,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB0E28EF1824E54B00EBE055 /* AppDelegate.m in Sources */,
+				CB14CDB1182E2CDA00CD6E48 /* CustomTabBarViewController.m in Sources */,
+				CB14CDA2182E2CD100CD6E48 /* NamedViewController.m in Sources */,
+				CB14CDB6182E313D00CD6E48 /* CustomTabBarCell.m in Sources */,
 				CB0E28EB1824E54B00EBE055 /* main.m in Sources */,
+				CB14CDB0182E2CDA00CD6E48 /* CustomTabBarItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +501,7 @@
 				CB0E29091824E54B00EBE055 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB0E290A1824E54B00EBE055 /* Build configuration list for PBXNativeTarget "CustomTabBarTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +510,7 @@
 				CB0E290C1824E54B00EBE055 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
